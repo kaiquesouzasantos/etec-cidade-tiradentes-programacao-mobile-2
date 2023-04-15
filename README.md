@@ -7,7 +7,7 @@
 #
 ### SOBRE
 
-- Diretório contendo desenvolvimento dos exercícios na disciplina de Programacao de Aplicativos Informatizados(PAM) na Etec Cidade Tiradentes em 2023.
+- Diretório contendo desenvolvimento dos exercícios na disciplina de Programação de Aplicativos Mobile(PAM) na Etec Cidade Tiradentes em 2023.
 - Possui pequenos projetos submetidos como proposta de solução, com o intuito de atender aos requisitos solicitados.
 
 #
