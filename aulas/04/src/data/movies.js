@@ -9,5 +9,5 @@ export const LISTA_FILMES = [
     new Movie(6, 'Corra', '8.8', 'corra.png'),
     new Movie(7, 'Guerra Mundial Z', '8.8', 'guerraMundialZ.png'),
     new Movie(8, 'Tropa de Elite 2', '8.8', 'tropaDeElite2.png'),
-    new Movie(9, 'Sniper Americano', '8.8', 'sniperAmericano.png'),
+    new Movie(9, 'Sniper Americano', '8.8', 'sniperAmericano.png')
 ]
