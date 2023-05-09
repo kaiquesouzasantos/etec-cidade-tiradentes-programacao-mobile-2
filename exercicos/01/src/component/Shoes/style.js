@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 15,
-        marginBottom:'5%',
+        margin: 6,
         backgroundColor: '#fff',
         shadowColor: "#000",
         shadowOffset: {
