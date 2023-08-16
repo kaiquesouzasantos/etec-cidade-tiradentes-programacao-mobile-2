@@ -1,5 +1,4 @@
 import React from 'react'
-import { StyleSheet } from "react-native";
 import 'react-native-gesture-handler' 
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
@@ -11,7 +10,18 @@ export default function Routes(){
 
     return(
        <NavigationContainer>
-           <Drawer.Navigator>
+           <Drawer.Navigator
+            screenOptions = {{
+                drawerStyle: {
+                    backgroundColor: '#141A29',
+                },
+                headerShown:false,
+                drawerLabelStyle: {
+                    color: 'white',
+                  },
+                drawerInactiveTintColor: 'white'
+            }}
+           >
                <Drawer.Screen name = "Inicio" component = {Stack} />
                <Drawer.Screen name = "Sobre" component = {About}/>
            </Drawer.Navigator>

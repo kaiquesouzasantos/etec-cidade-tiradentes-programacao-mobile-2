@@ -8,7 +8,11 @@ export default function Stack(){
     const stack = createStackNavigator();
     
     return(
-            <stack.Navigator>
+            <stack.Navigator
+                screenOptions={{
+                    headerTintColor: '#fff',
+                }}
+            >
                 <stack.Screen name ='Home' component ={Home} options = {{
                     headerShown:false, 
                 }}/>

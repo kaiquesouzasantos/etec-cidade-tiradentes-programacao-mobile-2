@@ -1,10 +1,12 @@
 import React from "react";
 import { View, Text, Image } from 'react-native'
 import { styles } from "./style";
+import Header from '../../components/Header'
 
 export default function About() {
   return (
     <View style={styles.container}>
+    <Header style = {styles.header} />
     <Image
       source={{uri:'https://media.licdn.com/dms/image/D4D03AQG_G2UMKVYxog/profile-displayphoto-shrink_200_200/0/1678750683745?e=1697673600&v=beta&t=pyPpPkjLg-Zp0PcXUe8B0CPhiWH58vFuOrkN9hG-pgA'}}
       style={styles.image}

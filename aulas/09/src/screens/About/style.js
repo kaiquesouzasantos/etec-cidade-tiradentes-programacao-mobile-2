@@ -8,6 +8,9 @@ export const styles = StyleSheet.create({
         padding: 20,
         backgroundColor: '#141A29'
     },
+    header: {
+        
+    },
     image: {
         width: 150,
         height: 150,

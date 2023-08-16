@@ -1,15 +1,19 @@
 import React from "react"
 import { View, Text, TouchableOpacity } from "react-native"
+import { useNavigation } from '@react-navigation/native';
 import { styles } from './style'
 import { Entypo } from '@expo/vector-icons'
 
 
 export default function Header() {
+    const navigation = useNavigation()
 
     return(
         <View style={styles.viewHeader}>
 
-        <TouchableOpacity>
+        <TouchableOpacity
+            onPress = {() => navigation.openDrawer()}
+        >
             <Entypo
                 style={{justifyContent:'flex-start'}}
                 name="menu"

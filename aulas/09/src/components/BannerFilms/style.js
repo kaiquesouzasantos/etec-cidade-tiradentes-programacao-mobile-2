@@ -6,15 +6,16 @@ export const styles = StyleSheet.create({
         height: 600,
         marginTop: 15,
         borderRadius: 10,
+        marginBottom: 15
     },
     imageBanner: {
         width: '100%',
         height: 600,
-        marginTop: 15,
+        marginTop: 5,
         borderRadius: 10,
     },
     textBanner: {
-        fontSize: 30,
+        fontSize: 23,
         color: 'white',
         marginTop: 15,
         alignSelf: 'flex-start',    
